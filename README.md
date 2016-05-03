@@ -173,7 +173,8 @@ class UsersService implements UsersServicesInterface
 
 ## Changelog
 
---No version released yet--
+#### v0.1.0:
+- Basic Laravel Validation service using the Laravel Validation class.
 
 
 ## Credits

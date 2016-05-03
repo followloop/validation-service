@@ -170,3 +170,23 @@ class UsersService implements UsersServicesInterface
 }
 
 ```
+
+## Changelog
+
+--No version released yet--
+
+
+## Credits
+
+- [Jesús Espejo](https://github.com/jespejoh) ([Twitter](https://twitter.com/jespejo89))
+
+
+## Bugs & contributing
+
+* Found a bug? That's good and bad. Let me know using the Issues on Github.
+* Need a feature or have something interesting to contribute with? Great! Open a pull request.
+
+
+## License
+
+The MIT License (MIT). Please see [License File](https://github.com/ellipsesynergie/api-response/blob/master/LICENSE) for more information.

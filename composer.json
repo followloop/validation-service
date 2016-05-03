@@ -1,0 +1,10 @@
+{
+    "name": "jespejoh/laravalidator",
+    "description": "Validation service for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/framework": "5.*"
+    }
+}

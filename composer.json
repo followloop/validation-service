@@ -1,10 +1,18 @@
 {
     "name": "jespejoh/laravalidator",
     "description": "Validation service for Laravel",
-    "type": "library",
-    "license": "MIT",
-    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Jesús Espejo"
+        }
+    ],
     "require": {
+        "php": ">=5.5.9",
         "laravel/framework": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jespejoh\\LaraValidator\\": ""
+        }
     }
 }

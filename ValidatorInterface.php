@@ -1,12 +1,12 @@
 <?php
 
-namespace Jespejoh\LaraValidator;
+namespace LOOP\ValidationService;
 
-use Jespejoh\LaraValidator\Exceptions\ValidationFunctionDoesNotExist;
+use LOOP\ValidationService\Exceptions\ValidationFunctionDoesNotExist;
 
 /**
  * Interface ValidatorInterface
- * @package Jespejoh\LaraValidator
+ * @package LOOP\ValidationService
  */
 interface ValidatorInterface
 {

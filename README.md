@@ -1,19 +1,19 @@
-# LaraValidator
+# ValidationService
 
 A package that provides a validation as a service for Laravel 5.
 
 ## Goal
 
 There is a lot of talk about where to perform the data validation: repositories? controllers? gateways? services? models?
-Each one has its point; good things and bad things... I personally found useful to extract this logic to a service that can 
+Each one has its point; good things and bad things... We personally found useful to extract this logic to a service that can 
 be injected into other services on the same -or higher- layer.
 
 So the goal of this package is to provide a simple validation service that can be injected into other services, and that 
-although it uses the Laravel Validation calss by default, it can be extended to use other validation libraries.
+although it uses the Laravel Validation class by default, it can be extended to use other validation libraries.
 
 ## Installation
 
-1. Install this package by adding it to your `composer.json` or by running `composer require jespejoh/laravalidator` in your project's folder.
+1. Install this package by adding it to your `composer.json` or by running `composer require followloop/validation-service` in your project's folder.
 2. Ready to go! No service provider or anything else needed :).
 
 
@@ -81,7 +81,7 @@ interface UserValidatorInterface
 
 namespace MyApp\Services\Users\Validation\src;
 
-use Jespejoh\LaraValidator\src\LaravelValidator;
+use LOOP\ValidationService\src\LaravelValidator;
 
 class LaravelUserValidator extends LaravelValidator implements UserValidatorInterface
 {   
@@ -173,7 +173,7 @@ class UsersService implements UsersServicesInterface
 
 ## Changelog
 
-#### v0.1.0:
+#### v0.1.2:
 - Basic Laravel Validation service using the Laravel Validation class.
 
 
@@ -190,4 +190,4 @@ class UsersService implements UsersServicesInterface
 
 ## License
 
-The MIT License (MIT). Please see [License File](https://github.com/ellipsesynergie/api-response/blob/master/LICENSE) for more information.
+??

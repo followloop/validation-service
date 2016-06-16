@@ -1,15 +1,14 @@
 <?php
 
-namespace Jespejoh\LaraValidator\src;
+namespace LOOP\ValidationService\src;
 
 use Illuminate\Contracts\Validation\Factory;
-use Jespejoh\LaraValidator\Exceptions\ValidationFunctionDoesNotExist;
-use Jespejoh\LaraValidator\ValidatorInterface;
-
+use LOOP\ValidationService\Exceptions\ValidationFunctionDoesNotExist;
+use LOOP\ValidationService\ValidatorInterface;
 
 /**
  * Class LaravelValidator
- * @package Jespejoh\LaraValidator\src
+ * @package LOOP\ValidationService\src
  */
 abstract class LaravelValidator implements ValidatorInterface
 {

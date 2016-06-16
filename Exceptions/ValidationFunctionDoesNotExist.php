@@ -1,11 +1,10 @@
 <?php
 
-namespace Jespejoh\LaraValidator\Exceptions;
-
+namespace LOOP\ValidationService\Exceptions;
 
 /**
  * Class ValidationFunctionDoesNotExist
- * @package Jespejoh\LaraValidator\Exceptions
+ * @package LOOP\ValidationService\Exceptions
  */
 class ValidationFunctionDoesNotExist extends \Exception
 {

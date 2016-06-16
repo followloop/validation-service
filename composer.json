@@ -1,9 +1,12 @@
 {
-    "name": "jespejoh/laravalidator",
-    "description": "Validation service for Laravel",
+    "name": "followloop/validation-service",
+    "description": "Validation as Service for Laravel",
     "authors": [
         {
-            "name": "Jesús Espejo"
+            "name": "Jesús Espejo",
+            "email": "j.espejo@agentur-loop.com",
+            "homepage": "http://www.agentur-loop.com",
+            "role": "Back-end Developer"
         }
     ],
     "require": {
@@ -12,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Jespejoh\\LaraValidator\\": ""
+            "LOOP\\ValidationService\\": ""
         }
     }
 }

@@ -21,7 +21,7 @@ interface ValidatorInterface
     /**
      * Performs the given validation against the given data passed on "with()".
      *
-     * @param $setOfRules array/string array of rules to validate, or the name of a function that contains the rules already.
+     * @param $setOfRules array|string array of rules to validate, or the name of a function that contains the rules already.
      * @return mixed bool TRUE if it passes the validation, FALSE if it fails. For more info, retrieve errors after the fail.
      * @throws ValidationFunctionDoesNotExist
      */
